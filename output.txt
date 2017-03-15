@@ -1,0 +1,797 @@
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 330e162e-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Ping'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 340ac34c-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Search'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 242
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Encoding key: gzip
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Vary key: Accept-Encoding
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: 5256c2a9-0bec-4ce8-afaa-bd8b5962cb4e
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: DB6PR0601CA0047
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:08 GMT
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): buflen: 242
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): NOT_DONE_YET
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 242 b_length: 242
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Search
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 242 b_length: 242
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 242 b_length: 242
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Search
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 242 b_length: 242
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+340ac34c-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 36bfdf00-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 164
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Encoding key: gzip
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Vary key: Accept-Encoding
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: 3eb1d608-995e-414b-9d62-67951edb6707
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: VI1PR0701CA0068
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:12 GMT
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): buflen: 164
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): NOT_DONE_YET
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 164 b_length: 164
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Sync
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 164 b_length: 164
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 164 b_length: 164
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Sync
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 164 b_length: 164
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+36bfdf00-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 379a7a70-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['SendMail'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 0
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: 889db8f5-069e-45dd-93de-5394cfdab3ce
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: HE1P18901CA0020
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:14 GMT
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 0 b_length: 0
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 0 b_length: 0
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+379a7a70-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 389d6964-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Ping'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 140
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Encoding key: gzip
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Vary key: Accept-Encoding
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: 39af6477-4e42-4ef0-ad34-b0e409fe3161
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-470
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: VI1PR0701CA0058
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:16 GMT
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): buflen: 140
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): NOT_DONE_YET
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 140 b_length: 140
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Ping
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 140 b_length: 140
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 140 b_length: 140
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Ping
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 140 b_length: 140
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+330e162e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 150
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Encoding key: gzip
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Vary key: Accept-Encoding
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: 131c9916-9955-42a3-8b7b-3252f67afb23
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: DB5PR10CA0038
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:16 GMT
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): buflen: 150
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): NOT_DONE_YET
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 150 b_length: 150
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Ping
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 150 b_length: 150
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 150 b_length: 150
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Ping
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 150 b_length: 150
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+389d6964-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3a0e1a1e-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 767
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Encoding key: gzip
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Vary key: Accept-Encoding
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: f4ae7ee8-b1a3-468e-8266-a0ff89c8167f
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: DB5PR08CA0075
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:17 GMT
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): buflen: 767
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): NOT_DONE_YET
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 767 b_length: 767
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Sync
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 767 b_length: 767
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 767 b_length: 767
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Sync
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 767 b_length: 767
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3a0e1a1e-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3b5340a2-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 0
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: 5e2bdab4-455c-482c-8ae0-8afd34f330e2
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: HE1PR0601CA0021
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:20 GMT
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 0 b_length: 0
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 0 b_length: 0
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3b5340a2-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3c2b32fa-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 0
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: b42283e7-45f9-434f-85a5-2e3027fc6206
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: HE1P18901CA0014
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:21 GMT
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 0 b_length: 0
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 0 b_length: 0
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3c2b32fa-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3cbabccc-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 0
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: eac1bccd-36c3-4a47-85a4-1b344fe3cbee
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: DB6PR0601CA0041
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:23 GMT
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 0 b_length: 0
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 0 b_length: 0
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3cbabccc-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3d820084-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Ping'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 151
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Encoding key: gzip
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Vary key: Accept-Encoding
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: 25446090-a14a-4be1-9c60-bbb96412c958
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: DB6P193CA0006
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:23 GMT
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): buflen: 151
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): NOT_DONE_YET
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 151 b_length: 151
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Ping
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 151 b_length: 151
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 151 b_length: 151
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Ping
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 151 b_length: 151
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3d820084-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3e187924-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 771
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Encoding key: gzip
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Vary key: Accept-Encoding
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: 446ac007-0998-4d90-b5ec-3f241d5bdbc8
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: HE1PR0601CA0028
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:24 GMT
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): buflen: 771
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponsePart(): NOT_DONE_YET
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 771 b_length: 771
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Sync
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 771 b_length: 771
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 771 b_length: 771
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Found Content-Type: application/vnd.ms-sync.wbxml
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Processing command: Sync
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 771 b_length: 771
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3e187924-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3f10c3ea-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 0
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: d5386e56-770a-4385-b14e-f2d46478c5e6
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: VI1PR0701CA0056
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:25 GMT
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 0 b_length: 0
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 0 b_length: 0
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3f10c3ea-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3f8ba790-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 0
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: f570a9db-4d68-48c0-8df1-699fd43d8af2
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: DB5PR08CA0069
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:27 GMT
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 0 b_length: 0
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 0 b_length: 0
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+3f8ba790-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 3fe817c8-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Ping'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 4467de82-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Sync'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 0
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: e37e9986-6589-4ce8-bc88-77f22f1ea8f7
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: MS-Server-ActiveSync key: 15.1
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-MS-BackOffDuration key: L/-469
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-AspNet-Version key: 4.0.30319
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-DiagInfo key: HE1PR08MB0716
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BEServer key: HE1PR08MB0716
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-Powered-By key: ASP.NET
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-FEServer key: DB6P195CA0008
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Date key: Thu, 16 Mar 2017 11:37:35 GMT
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Connection key: close
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): handleResponseEnd resplength: 0 b_length: 0
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): resplength: 0 b_length: 0
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): Finished
+4467de82-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleResponseEnd(): NOT_DONE_YET
+SSLActiveSyncProxyResource.getChild(): Requesting url: outlook.office365.com/Microsoft-Server-ActiveSync
+SSLActiveSyncProxyResource.render(): Called...
+SSLActiveSyncProxyResource.render(): Creating factory
+SSLActiveSyncProxyResource.render(): NOT_DONE_YET
+Building protocol
+44cfc556-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): 44cfc556-093d-11e7-a429-000c29337275 args:
+{'Cmd': ['Ping'],
+ 'DeviceId': ['androidc259148960'],
+ 'DeviceType': ['Android'],
+ 'User': ['lech_lachowicz@mitechsystems.onmicrosoft.com']}
+44cfc556-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.__init__(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Cache-Control key: private
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Length key: 140
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Type key: application/vnd.ms-sync.wbxml
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Content-Encoding key: gzip
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Vary key: Accept-Encoding
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: Server key: Microsoft-IIS/8.5
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: request-id key: a1b04b72-a7d5-4994-a1e8-b9ac8e5e9250
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-CalculatedBETarget key: HE1PR08MB0716.eurprd08.prod.outlook.com
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): header: X-BackEndHttpStatus key: 200
+3fe817c8-093d-11e7-a429-000c29337275:SSLActiveSyncProxyClient.handleHeader(): done
+3fe817c8-093d-11e7-a429-000c29337275:SS
