@@ -1,4 +1,4 @@
-import uuid
+
 import xmltodict
 import wbxml
 import StringIO
@@ -9,7 +9,8 @@ import zlib
 from twisted.web.proxy import ProxyClientFactory, ReverseProxyResource, ProxyClient
 from twisted.web.server import NOT_DONE_YET
 
-from pprint import pprint
+import pprint
+from FileDumper import FileDumper
 
 from pnqdewbxml import pnqwbxml2xml
 
@@ -22,11 +23,14 @@ def gunzip_text(text):
     
 
 class ActiveSyncProxyClient(ProxyClient):
+    uuid = "uuid not defined yet"
     def logDebug(self, funct, message):
-        print ("{}:SSLActiveSyncProxyClient.{}(): {}".format(self.uuid, funct, message))
+        cname = "SSLActiveSyncProxyClient";
+        print ("{}:      {}.{}(): {}".format(self.uuid, cname, funct, message))
 
-    def __init__(self, *args, **kwargs):
-        self.uuid = str(uuid.uuid1())
+    def __init__(self, uuid, *args, **kwargs):
+        self.uuid = uuid
+        self.logDebug("__init__", "Called")
         self.resplength=0
         self._mybuffer = []
         self.encoding = ''
@@ -34,12 +38,12 @@ class ActiveSyncProxyClient(ProxyClient):
         self.headers_to_cache = {}
         self.commands = dict()
         ProxyClient.__init__(self,*args,**kwargs)
-        self.logDebug("__init__", self.uuid + " args:")
-        pprint(self.father.args) 
+        self.logDebug("__init__", "ARGS: " + pprint.pformat(self.father.args, width=99999999))
+        
         self.logDebug("__init__", "done")
 
     def handleHeader(self, key, value):
-        self.logDebug("handleHeader", "header: %s key: %s" % (key, value))
+        self.logDebug("handleHeader", "Processig header: %s: %s" % (key, value))
         if key == "Content-Type":
             self.replace = True
             self.ctype = value
@@ -78,24 +82,16 @@ class ActiveSyncProxyClient(ProxyClient):
                 #b = gunzip_text(b)
                 b = zlib.decompress(b, 16+zlib.MAX_WBITS)
 
+            dump_file_prefix = self.uuid + cmd + "." + str(self.commands[cmd])
+            FileDumper.dumpFile("response", dump_file_prefix , "wbxml", b)
             
-            f = open("/root/oper/" + self.uuid + cmd + "." + str(self.commands[cmd]) + '.wbxml', "w")
-            f.write(b)
-            f.close()
-
 
             xml = pnqwbxml2xml(b)
             #xml = wbxml.wbxml_to_xml(b)
-
-            f = open("/root/oper/" + self.uuid + cmd + "." + str(self.commands[cmd]) + '.xml', "w")
-            f.write(xml)
-            f.close()
-
+            FileDumper.dumpFile("response", dump_file_prefix , "xml", xml)
+      
             doc = xmltodict.parse(xml)
-            f = open("/root/oper/" + self.uuid + cmd + "." + str(self.commands[cmd]) + '.dict', "w")
-            pprint(doc, f)
-            f.close()
-
+            FileDumper.dumpFile("response", dump_file_prefix , "dict", pprint.pformat(doc))
         
         if len(b) > 0:
             for buff in self._mybuffer:

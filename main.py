@@ -34,7 +34,7 @@ icap_method = "RESPMOD"
 
 
 proxyResource = SSLActiveSyncProxyResource('outlook.office365.com', 443, '')
-proxyResource.setProxyClientFactoryClass(SSLProxyClientFactory)
+#proxyResource.setProxyClientFactoryClass(ActiveSyncProxyClientFactory)
 site = server.Site(proxyResource)
 reactor.listenTCP(8081, site)
 reactor.run()

@@ -1,3 +1,7 @@
+import uuid
+import pprint
+from FileDumper import FileDumper
+
 from twisted.web.resource import Resource
 from twisted.internet import reactor, ssl
 from twisted.web.proxy import ProxyClientFactory, ReverseProxyResource, ProxyClient
@@ -21,8 +25,9 @@ Reverse
     #proxyClientFactoryClass = ActiveSyncProxyClientFactory
     
     def logDebug(self, funct, message):
-        print ("SSLActiveSyncProxyResource.{}(): {}".format(funct, message))
-    def __init__(self, host, port, path, reactor=reactor, proxyClientFactoryClass=ActiveSyncProxyClientFactory):
+        cname = "SSLActiveSyncProxyResource";
+        print ("{}:      {}.{}(): {}".format(self.uuid, cname, funct, message))
+    def __init__(self, host, port, path, reactor=reactor, proxyClientFactoryClass=ActiveSyncProxyClientFactory, newuuid=""):
         """
         @param host: the host of the web server to proxy.
         @type host: C{str}
@@ -35,12 +40,19 @@ Reverse
             characters (such as " " or "/") should have been done already.
         @type path: C{str}
         """
+        self.uuid = str(uuid.uuid1())
+        if newuuid != "":
+            self.uuid = newuuid
+        self.logDebug("__init__", "Called")
+        
         self.proxyClientFactoryClass = proxyClientFactoryClass
         Resource.__init__(self)
         self.host = host
         self.port = port
         self.path = path
         self.reactor = reactor
+        self.commands = dict()
+        self.logDebug("__init__", "Finished")
         
         
     def setProxyClientFactoryClass(self, proxyClientFactoryClass):
@@ -52,10 +64,11 @@ Reverse
         as this one, except that its path also contains the segment given by
         C{path} at the end.
         """
+        self.uuid = str(uuid.uuid1())
         self.logDebug("getChild", "Requesting url: " + self.host + b'/' + urlquote(path, safe=b"").encode('utf-8'))
         return SSLActiveSyncProxyResource(
             self.host, self.port, self.path + b'/' + urlquote(path, safe=b"").encode('utf-8'),
-            self.reactor)
+            self.reactor, newuuid = self.uuid)
 
     def render(self, request):
         """
@@ -76,9 +89,27 @@ Reverse
         else:
             rest = self.path
         self.logDebug("render", "Creating factory")
-        clientFactory = self.proxyClientFactoryClass(
+        #request.uuid = self.uuid
+        
+        print "header"
+        content = request.content.read()
+        
+        pprint.pprint(request.getHeader("Content-Type"))
+        if request.getHeader("Content-Type") == "application/vnd.ms-sync.wbxml":
+            # its activesynccmd
+            cmd = request.args['Cmd'][0]
+            if cmd in self.commands:
+                self.commands[cmd]=self.commands[cmd]+1
+            else:
+                self.commands[cmd]=1
+            dump_file_prefix = self.uuid + cmd + "." + str(self.commands[cmd])
+            
+            FileDumper.dumpFile("request", dump_file_prefix , "headers", pprint.pformat(vars(request)))
+            FileDumper.dumpFile("request", dump_file_prefix , "content", content)
+        print request    
+        clientFactory = self.proxyClientFactoryClass(self.uuid,
             request.method, rest, request.clientproto,
-            request.getAllHeaders(), request.content.read(), request)
+            request.getAllHeaders(), content, request)
         self.reactor.connectSSL(self.host, self.port, clientFactory, ssl.ClientContextFactory())
         self.logDebug("render", "NOT_DONE_YET")
         return NOT_DONE_YET
