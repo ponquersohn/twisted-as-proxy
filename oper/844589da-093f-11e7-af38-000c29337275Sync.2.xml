@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!DOCTYPE ActiveSync PUBLIC "-//MICROSOFT//DTD ActiveSync//EN" "http://www.microsoft.com/">
+<Sync xmlns="AirSync:">
+<Collections>
+<Collection>
+<SyncKey>1800057000</SyncKey>
+<CollectionId>5</CollectionId>
+<Status>1</Status>
+<Commands>
+<Add>
+<ServerId>NEkNlWBeRE2Pnv49DIxpFAAAAAABDDRJDZVgXkRNj57-PQyMaRQAAB8iJZo1</ServerId>
+<ApplicationData>
+<To xmlns="Email:">&quot;Lech Lachowicz&quot; &lt;Lech_Lachowicz@mitechsystems.onmicrosoft.com&gt;</To>
+<From xmlns="Email:">&quot;Lech Lachowicz&quot; &lt;Lech_Lachowicz@mitechsystems.onmicrosoft.com&gt;</From>
+<Subject xmlns="Email:">Re: Pierwsza wiadomosc</Subject>
+<DateReceived xmlns="Email:">2017-03-16T11:53:40.298Z</DateReceived>
+<DisplayTo xmlns="Email:">Lech Lachowicz</DisplayTo>
+<ThreadTopic xmlns="Email:">Pierwsza wiadomosc</ThreadTopic>
+<Importance xmlns="Email:">1</Importance>
+<Read xmlns="Email:">0</Read>
+<Body xmlns="AirSyncBase:">
+<Type>2</Type>
+<EstimatedDataSize>719</EstimatedDataSize>
+<Data>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Asdasd&lt;/p&gt;
+&lt;div class=&quot;quote&quot;&gt;On Mar 16, 2017 12:37 PM, Lech Lachowicz &amp;lt;Lech_Lachowicz@mitechsystems.onmicrosoft.com&amp;gt; wrote:&lt;br type=&quot;attribution&quot;&gt;
+&lt;blockquote class=&quot;quote&quot; style=&quot;margin:0 0 0 .8ex; border-left:1px #ccc solid; padding-left:1ex&quot;&gt;
+&lt;div&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Asdasdasd&lt;/p&gt;
+&lt;div&gt;On Mar 16, 2017 12:22 PM, Lech Lachowicz &amp;lt;Lech_Lachowicz@mitechsystems.onmicrosoft.com&amp;gt; wrote:&lt;br&gt;
+&lt;blockquote style=&quot;margin:0 0 0 0.8ex; border-left:1px #ccc solid; padding-left:1ex&quot;&gt;
+&lt;div&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Asdasdasd&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</Data>
+</Body>
+<MessageClass xmlns="Email:">IPM.Note</MessageClass>
+<InternetCPID xmlns="Email:">65001</InternetCPID>
+<Flag xmlns="Email:"/>
+<ContentClass xmlns="Email:">urn:content-classes:message</ContentClass>
+<NativeBodyType xmlns="AirSyncBase:">2</NativeBodyType>
+<ConversationId xmlns="Email2:">0cDWT5WTBEOP8HB13Kyh6A==</ConversationId>
+<ConversationIndex xmlns="Email2:">AdKeS/M=</ConversationIndex>
+<Categories xmlns="Email:"/>
+</ApplicationData>
+</Add>
+<Add>
+<ServerId>NEkNlWBeRE2Pnv49DIxpFAAAAAABDDRJDZVgXkRNj57-PQyMaRQAAB8iJZk1</ServerId>
+<ApplicationData>
+<To xmlns="Email:">&quot;Lech Lachowicz&quot; &lt;Lech_Lachowicz@mitechsystems.onmicrosoft.com&gt;</To>
+<From xmlns="Email:">&quot;Lech Lachowicz&quot; &lt;Lech_Lachowicz@mitechsystems.onmicrosoft.com&gt;</From>
+<Subject xmlns="Email:">Re: Pierwsza wiadomosc</Subject>
+<DateReceived xmlns="Email:">2017-03-16T11:53:38.782Z</DateReceived>
+<DisplayTo xmlns="Email:">Lech Lachowicz</DisplayTo>
+<ThreadTopic xmlns="Email:">Pierwsza wiadomosc</ThreadTopic>
+<Importance xmlns="Email:">1</Importance>
+<Read xmlns="Email:">0</Read>
+<Body xmlns="AirSyncBase:">
+<Type>2</Type>
+<EstimatedDataSize>728</EstimatedDataSize>
+<Data>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Asdasdasdasdasd&lt;/p&gt;
+&lt;div class=&quot;quote&quot;&gt;On Mar 16, 2017 12:37 PM, Lech Lachowicz &amp;lt;Lech_Lachowicz@mitechsystems.onmicrosoft.com&amp;gt; wrote:&lt;br type=&quot;attribution&quot;&gt;
+&lt;blockquote class=&quot;quote&quot; style=&quot;margin:0 0 0 .8ex; border-left:1px #ccc solid; padding-left:1ex&quot;&gt;
+&lt;div&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Asdasdasd&lt;/p&gt;
+&lt;div&gt;On Mar 16, 2017 12:22 PM, Lech Lachowicz &amp;lt;Lech_Lachowicz@mitechsystems.onmicrosoft.com&amp;gt; wrote:&lt;br&gt;
+&lt;blockquote style=&quot;margin:0 0 0 0.8ex; border-left:1px #ccc solid; padding-left:1ex&quot;&gt;
+&lt;div&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Asdasdasd&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</Data>
+</Body>
+<MessageClass xmlns="Email:">IPM.Note</MessageClass>
+<InternetCPID xmlns="Email:">65001</InternetCPID>
+<Flag xmlns="Email:"/>
+<ContentClass xmlns="Email:">urn:content-classes:message</ContentClass>
+<NativeBodyType xmlns="AirSyncBase:">2</NativeBodyType>
+<ConversationId xmlns="Email2:">0cDWT5WTBEOP8HB13Kyh6A==</ConversationId>
+<ConversationIndex xmlns="Email2:">AdKeS/I=</ConversationIndex>
+<Categories xmlns="Email:"/>
+</ApplicationData>
+</Add>
+</Commands>
+</Collection>
+</Collections>
+</Sync>
