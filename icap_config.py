@@ -1,4 +1,0 @@
-
-
-class proxy_configuration:
-   
