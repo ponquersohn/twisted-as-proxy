@@ -1,5 +1,7 @@
 import uuid
 import pprint
+import zlib
+import sys, traceback
 from FileDumper import FileDumper
 
 from twisted.web.resource import Resource
@@ -9,6 +11,9 @@ from twisted.python.compat import urllib_parse, urlquote
 from twisted.web.server import NOT_DONE_YET
 
 from ActiveSyncProxyClientFactory import ActiveSyncProxyClientFactory
+
+from pnqdewbxml import pnqwbxml2xml
+
 
 class SSLActiveSyncProxyResource(Resource):
     """
@@ -89,24 +94,37 @@ Reverse
         else:
             rest = self.path
         self.logDebug("render", "Creating factory")
-        #request.uuid = self.uuid
-        
-        print "header"
+
         content = request.content.read()
+        try:
         
-        pprint.pprint(request.getHeader("Content-Type"))
-        if request.getHeader("Content-Type") == "application/vnd.ms-sync.wbxml":
-            # its activesynccmd
-            cmd = request.args['Cmd'][0]
-            if cmd in self.commands:
-                self.commands[cmd]=self.commands[cmd]+1
-            else:
-                self.commands[cmd]=1
-            dump_file_prefix = self.uuid + cmd + "." + str(self.commands[cmd])
+            if request.getHeader("Accept-Encoding") == 'gzip':
+                request.requestHeaders.removeHeader("accept-encoding")
+                request.setHeader("accept-encoding", "identity")
+            if request.getHeader("Content-Type") == "application/vnd.ms-sync.wbxml":
+                # its activesynccmd
+                cmd = request.args['Cmd'][0]
+                if cmd in self.commands:
+                    self.commands[cmd]=self.commands[cmd]+1
+                else:
+                    self.commands[cmd]=1
+                dump_file_prefix = self.uuid +"."+ cmd + "." + str(self.commands[cmd])
+                cntnt = content
+                FileDumper.dumpFile("request", dump_file_prefix , "headers", pprint.pformat(vars(request)))
+                if (request.getHeader("Content-encoding") == 'gzip'):
+                    self.logDebug("render", "Request content seems gzipped")
+                    cntnt = zlib.decompress(cntnt, 16+zlib.MAX_WBITS)
+                FileDumper.dumpFile("request", dump_file_prefix , "wbxml", cntnt)
+                xml = pnqwbxml2xml(cntnt)
+                FileDumper.dumpFile("request", dump_file_prefix , "xml", xml)
+        except:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            exc = traceback.format_exception(exc_type, exc_value, exc_traceback)
+            self.logDebug("render", "Something went seriously wrong!!!!")
+            for e in exc:
+                self.logDebug("render", e)
+          
             
-            FileDumper.dumpFile("request", dump_file_prefix , "headers", pprint.pformat(vars(request)))
-            FileDumper.dumpFile("request", dump_file_prefix , "content", content)
-        print request    
         clientFactory = self.proxyClientFactoryClass(self.uuid,
             request.method, rest, request.clientproto,
             request.getAllHeaders(), content, request)

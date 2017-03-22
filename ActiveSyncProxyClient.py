@@ -11,7 +11,7 @@ from twisted.web.server import NOT_DONE_YET
 
 import pprint
 from FileDumper import FileDumper
-
+from ActiveSyncResponseFilter import ActiveSyncResponseFilter
 from pnqdewbxml import pnqwbxml2xml
 
 def gunzip_text(text): 
@@ -80,19 +80,19 @@ class ActiveSyncProxyClient(ProxyClient):
             if self.encoding == 'gzip':
                 self.logDebug("handleResponseEnd", "It seems the response is gziped... unzipping.")
                 #b = gunzip_text(b)
-                b = zlib.decompress(b, 16+zlib.MAX_WBITS)
-
-            dump_file_prefix = self.uuid + cmd + "." + str(self.commands[cmd])
+                content = zlib.decompress(b, 16+zlib.MAX_WBITS)
+            else:
+                content = b
+            dump_file_prefix = self.uuid + "." + cmd + "." + str(self.commands[cmd])
             FileDumper.dumpFile("response", dump_file_prefix , "wbxml", b)
-            
-
+           
             xml = pnqwbxml2xml(b)
             #xml = wbxml.wbxml_to_xml(b)
             FileDumper.dumpFile("response", dump_file_prefix , "xml", xml)
+            
+            filter = ActiveSyncResponseFilter(self.uuid)
+            filter.filterCommand(cmd, self.father.getAllHeaders(), self.headers_to_cache, xml)
       
-            doc = xmltodict.parse(xml)
-            FileDumper.dumpFile("response", dump_file_prefix , "dict", pprint.pformat(doc))
-        
         if len(b) > 0:
             for buff in self._mybuffer:
                 ProxyClient.handleResponsePart(self,buff)
